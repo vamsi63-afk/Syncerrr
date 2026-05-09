@@ -1,7 +1,7 @@
 // config.js
 module.exports = {
   token: process.env.DISCORD_TOKEN,
-  prefix: require("./prefix.json").prefix || "."
+prefix: require("./prefix.json").prefix || ".",
   enablePrefix: true,
   supportServer: "https://discord.gg/9MVAPpfs8D",
 
